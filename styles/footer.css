@@ -1,0 +1,25 @@
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 100px;
+    color: white;
+}
+
+.footer > .footer_option {
+    display:flex;
+    background-color: #36383F;
+    border: 3px solid #676767;
+    padding: 0px 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer > .footer_option > .codepenfor {
+    font-size: 34px;
+    font-weight: 400;
+}
+
+.footer > .footer_option > .footer_highlighted{
+    font-size: 50px;
+    font-weight: 900;
+}

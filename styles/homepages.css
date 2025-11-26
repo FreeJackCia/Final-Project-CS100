@@ -1,0 +1,95 @@
+.page-container {
+    background: #3D414A;
+    box-shadow: 
+        inset 0px -350px 260px -40px rgba(0, 0, 0, 0.3),
+        inset -1200px 0px 500px -120px rgba(0, 0, 0, 0.6);
+    display: grid;
+    grid-template-columns: 3fr 2.1fr;
+    flex: 1;
+}
+
+
+/* Left Side */
+
+.page-container > .left-side {
+    padding: 50px 50px 70px 90px;
+}
+
+.page-container > .left-side > .paragraph_1 {
+    font-size: 60px;
+}
+
+.page-container > .left-side > .paragraph_1 >.normal {
+    color: #DBDCDD;
+    font-weight: 300;
+    display: inline;
+}
+
+.page-container > .left-side > .paragraph_1 >.hand {
+    display: inline;
+}
+
+.page-container > .left-side > .paragraph_1 >.highlighted {
+    color: #F1F1F1;
+    font-weight: 700;
+    display: inline;
+}
+
+.page-container > .left-side > .paragraph_2 {
+    font-size: 55px;
+    font-weight: 400;
+    color: #B3B3AB;
+}
+
+.page-container > .left-side > .page-container-butons {
+    display: flex;
+    grid-gap: 35px;
+    padding: 50px 0px;
+    justify-content: flex-start;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.page-container > .left-side > .page-container-butons > #Sign_Up{
+    background-color: #4BCE79;
+    color: black;
+}
+
+.page-container > .left-side > .page-container-butons > #Learn_More{
+    background-color: #111111;
+    color: white;
+}
+
+
+.page-container > .right-side img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;   
+}
+
+
+/* Right Side */
+
+.page-container > .right-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.page-container > .right-side > .title {
+    display: flex;
+    flex-direction:row;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 10px 20px;
+}
+
+.page-container > .right-side > .title > .title_part1 {
+    margin-right: 0.25em;
+    color: #E5E7EB
+}
+
+.page-container > .right-side > .title > .title_part2 {
+   color: #78DAFD
+}
+

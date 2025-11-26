@@ -1,0 +1,76 @@
+
+.header {
+    height: 50px;
+    background-color:black ;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0px 40px 40px;
+}
+
+/* LEFT COLUMN */
+
+.header > .left-column > .banner-image img {
+    width: 300px;
+    height: auto;
+}
+
+/* CENTER COLUMN */
+
+.header > .center-column {
+
+    display: flex;
+    flex-direction: column;   
+}
+
+.header > .center-column > .menu {
+
+    display: flex;
+    font-size: 2.3em;
+    font-weight: 900;
+    gap: 25px;
+}
+
+.header > .center-column > .menu > .spark {
+    font-weight: 600;
+    color: #ACACA2;
+    padding: 0px 30px;
+}
+
+.header> .center-column > .menu > .spark i {
+    font-size: 0.6em;
+    color: #C2C2C2;
+}
+.center-column > .explore {
+    color: #F4E184;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+/* RIGHT COLUMN */
+
+.header > .right-column {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    font-size: 2em;
+    font-weight: 600;    
+}
+
+.buton {
+    background-color: #36383F;
+    padding: 25px 40px;
+    border-radius: 7px;
+}
+
+.buton i {
+    color: #4BCE79;
+}
+
+.right-column > .buton-lupa {
+    background-color: transparent;
+    color: #858585;;
+    padding: 25px 20px;
+    font-size: 1.6em;
+}
